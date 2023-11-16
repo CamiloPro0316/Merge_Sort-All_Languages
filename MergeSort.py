@@ -39,12 +39,3 @@ class MergeSort:
         return self.array
 
 
-# Example usage:
-if __name__ == "__main__":
-    unsorted_array = [12, 11, 13, 5, 6, 7]
-    merge_sort_instance = MergeSort(unsorted_array)
-    merge_sort_instance.merge_sort()
-    sorted_array = merge_sort_instance.get_sorted_array()
-
-    print("Unsorted array:", unsorted_array)
-    print("Sorted array:", sorted_array)
