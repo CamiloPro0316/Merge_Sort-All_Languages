@@ -1,0 +1,29 @@
+<diagram>
+    <procedure name="mergeSort">
+        <if test="array length > 1">
+            <then>
+                <block name="Divide the array">
+                    <procedure name="find middle point to divide array into two halves"/>
+                    <procedure name="call mergeSort for first half"/>
+                    <procedure name="call mergeSort for second half"/>
+                </block>
+                <block name="Merge the sorted halves">
+                    <procedure name="merge"/>
+                </block>
+            </then>
+            <else>
+                <block name="Do nothing if array is of length 1"/>
+            </else>
+        </if>
+    </procedure>
+    <procedure name="merge">
+        <block name="Merging logic">
+            <comment>
+                Merging two subarrays of array.
+                First subarray is arr[l..m]
+                Second subarray is arr[m+1..r]
+            </comment>
+            <block name="Merge the two halves"/>
+        </block>
+    </procedure>
+</diagram>
