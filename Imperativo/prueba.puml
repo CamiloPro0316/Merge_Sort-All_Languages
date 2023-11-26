@@ -1,0 +1,24 @@
+@startuml
+:start;
+:Dividir la lista en mitades hasta que cada sublista contenga un solo elemento;
+while (Hay más de un elemento en la sublista) is (sí)
+  :Dividir la sublista actual en dos partes iguales;
+endwhile (no)
+:Comenzar a fusionar sublistas de vuelta;
+repeat :Fusionar cada par de sublistas adyacentes en una sublista ordenada;
+repeat while (Todavía hay sublistas para fusionar)
+:Fusionar las sublistas finales en una lista ordenada;
+:stop;
+@enduml
+@startuml
+:start;
+:Dividir la lista en mitades hasta que cada sublista contenga un solo elemento;
+while (Hay más de un elemento en la sublista) is (sí)
+  :Dividir la sublista actual en dos partes iguales;
+endwhile (no)
+:Comenzar a fusionar sublistas de vuelta;
+repeat :Fusionar cada par de sublistas adyacentes en una sublista ordenada;
+repeat while (Todavía hay sublistas para fusionar)
+:Fusionar las sublistas finales en una lista ordenada;
+:stop;
+@enduml
